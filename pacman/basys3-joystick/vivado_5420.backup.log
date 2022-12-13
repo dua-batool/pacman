@@ -1,0 +1,742 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Dec 13 12:06:18 2022
+# Process ID: 5420
+# Current directory: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9276 C:\Users\DELL\Desktop\dld\joystick2\Basys3-Joystick-Interfacing-main\Basys3-Joystick-Interfacing-main-main\Basys3-Joystick-Interfacing-main-main\test.xpr
+# Log file: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/vivado.log
+# Journal file: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main'
+INFO: [Project 1-313] Project file moved from 'C:/Users/db07098/Downloads/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/Pacman_Movement.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/Pacman_Movement.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/clock_divider.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/clock_divider.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/ghost.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/ghost.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/ghost2.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/ghost2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/lab_10.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/lab_10.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/pixel_gen.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/pixel_gen.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/top.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/top.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/v_counter.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/v_counter.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/vga_sync.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/vga_sync.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/move.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/move.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/top_lev.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/top_lev.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/D_FF4.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/D_FF4.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/movement.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/movement.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/top_level.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/top_level.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/state_to_coordinates.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/state_to_coordinates.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/output_logic.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/output_logic.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/won_screen.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/won_screen.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/next_state.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/next_state.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/D_FF.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/D_FF.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/collision.v', nor could it be found using path 'C:/Users/db07098/Downloads/lab10/lab_10/lab_10.srcs/sources_1/new/collision.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/DELL/Desktop/Vivado/2020.1/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'xadc_wiz_0' is locked:
+* IP definition 'XADC Wizard (3.0)' for IP 'xadc_wiz_0' (customized with software release 2015.1) has a newer minor version in the IP Catalog.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 1013.402 ; gain = 0.000
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/ghost.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/won_screen.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/vga_sync.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/v_counter.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/top.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/top_level.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/collision.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/Pacman_Movement.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/clock_divider.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/next_state.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/top_lev.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/D_FF4.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/movement.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/ghost2.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/output_logic.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/state_to_coordinates.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/pixel_gen.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/D_FF.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/lab_10.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/move.v}
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/ghost.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/won_screen.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/vga_sync.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/v_counter.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/top.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/top_level.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/collision.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/Pacman_Movement.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/clock_divider.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/next_state.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/top_lev.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/D_FF4.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/movement.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/ghost2.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/output_logic.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/state_to_coordinates.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/pixel_gen.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/D_FF.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/lab_10.v C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/move.v}
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/ghost.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/won_screen.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/vga_sync.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/v_counter.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/top.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/top_level.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/collision.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/Pacman_Movement.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/clock_divider.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/next_state.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/top_lev.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/D_FF4.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/movement.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/ghost2.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/output_logic.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/state_to_coordinates.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/pixel_gen.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/D_FF.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/lab_10.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/DELL/Desktop/dld/joystick2/pac/lab_10/lab_10.srcs/sources_1/new/move.v' cannot be added to the project because it already exists in the project, skipping this file
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/D_FF.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/D_FF4.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/Pacman_Movement.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/clock_divider.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/collision.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/ghost.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/ghost2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/lab_10.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/move.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/movement.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/next_state.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/output_logic.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/pixel_gen.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/state_to_coordinates.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/top.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/top_lev.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/top_level.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/v_counter.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/vga_sync.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/won_screen.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/D_FF.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/D_FF4.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/Pacman_Movement.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/clock_divider.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/collision.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/ghost.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/ghost2.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/lab_10.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/move.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/movement.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/next_state.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/output_logic.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/pixel_gen.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/state_to_coordinates.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/top.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/top_lev.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/top_level.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/v_counter.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/vga_sync.v C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/lab10/lab_10/lab_10.srcs/sources_1/new/won_screen.v}
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+[Tue Dec 13 12:11:53 2022] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+[Tue Dec 13 12:14:55 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.456 . Memory (MB): peak = 1226.062 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4558 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1907.855 ; gain = 15.730
+Restored from archive | CPU: 4.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1907.855 ; gain = 15.730
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1907.855 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:51 ; elapsed = 00:00:40 . Memory (MB): peak = 2028.789 ; gain = 1015.387
+open_report: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 2260.785 ; gain = 197.969
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+[Tue Dec 13 12:22:28 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+open_hw_target: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3674.793 ; gain = 1082.871
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Tue Dec 13 12:30:14 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+[Tue Dec 13 12:33:22 2022] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/synth_1/runme.log
+[Tue Dec 13 12:33:22 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+close_hw_manager
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+[Tue Dec 13 13:03:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/synth_1/runme.log
+[Tue Dec 13 13:03:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+WARNING: [Vivado 12-4172] The following IPs are either missing output products or output products are not up-to-date. Since these IPs are locked, no update to the output products cant be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.403 . Memory (MB): peak = 4203.617 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3269 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 4203.617 ; gain = 0.000
+Restored from archive | CPU: 4.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 4203.617 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:31 . Memory (MB): peak = 4203.617 ; gain = 358.457
+open_report: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 4455.062 ; gain = 140.992
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+[Tue Dec 13 13:14:01 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-06:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 4466.422 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+[Tue Dec 13 13:28:32 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-06:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 4546.434 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Tue Dec 13 13:32:02 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+[Tue Dec 13 13:42:27 2022] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/synth_1/runme.log
+[Tue Dec 13 13:42:27 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+[Tue Dec 13 13:47:33 2022] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/synth_1/runme.log
+[Tue Dec 13 13:47:34 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Tue Dec 13 14:12:08 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+[Tue Dec 13 14:12:24 2022] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/synth_1/runme.log
+[Tue Dec 13 14:12:24 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+[Tue Dec 13 14:23:20 2022] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/synth_1/runme.log
+[Tue Dec 13 14:23:20 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-06:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 4561.254 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Tue Dec 13 14:35:27 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+[Tue Dec 13 14:35:41 2022] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/synth_1/runme.log
+[Tue Dec 13 14:35:41 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-06:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 4739.957 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+file mkdir C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/new
+close [ open C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/new/wall_collision.v w ]
+add_files C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/new/wall_collision.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+[Tue Dec 13 15:13:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/synth_1/runme.log
+[Tue Dec 13 15:13:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-06:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 4739.957 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Tue Dec 13 15:41:18 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+[Tue Dec 13 15:41:36 2022] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/synth_1/runme.log
+[Tue Dec 13 15:41:36 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3070A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Tue Dec 13 16:03:32 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+[Tue Dec 13 16:03:47 2022] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/synth_1/runme.log
+[Tue Dec 13 16:03:47 2022] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/dld/joystick2/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main-main/Basys3-Joystick-Interfacing-main-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
