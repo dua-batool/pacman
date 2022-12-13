@@ -1,0 +1,13 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/zh07104/Desktop/lab_10/lab_10.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sim_1/new/test_hcount.v,1667898514,verilog,,,,test_top,,,,,,,,
+C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/clock_divider.v,1668493899,verilog,,C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/lab_10.v,,clock_divider,,,,,,,,
+C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/lab_10.v,1668416834,verilog,,C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/pixel_gen.v,,hcounter,,,,,,,,
+C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/pixel_gen.v,1667895095,verilog,,C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/top.v,,pixel_gen,,,,,,,,
+C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/top.v,1667895908,verilog,,C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/v_counter.v,,top,,,,,,,,
+C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/top_level.v,1666689433,verilog,,C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/v_counter.v,,top_level,,,,,,,,
+C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/v_counter.v,1668416538,verilog,,C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/vga_sync.v,,v_counter,,,,,,,,
+C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sources_1/new/vga_sync.v,1668416290,verilog,,C:/Users/zh07104/Desktop/lab_10/lab_10.srcs/sim_1/new/test_hcount.v,,vga_sync,,,,,,,,
